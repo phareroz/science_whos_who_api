@@ -36,7 +36,7 @@ async function start(fastify)
       servers:
       [
         {
-          url: 'get url in browser'
+          url: 'https://geturlinyourbrowser.com'
         }
       ]
     }
