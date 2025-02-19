@@ -1,0 +1,44 @@
+[
+  {
+    "surname": "Helleboid",
+    "forename": "Yann",
+    "mail": "yann.helleboid@orange.com",
+    "id": "abcd1234"
+  },
+  {
+    "surname": "Lamarr",
+    "forename": "Hedy",
+    "mail": "hedy.lamarr@wifi.com",
+    "id": "hela1234"
+  },
+  {
+    "surname": "Curie",
+    "forename": "Marie",
+    "mail": "marie.curie@radioactif.com",
+    "id": "macu1234"
+  },
+  {
+    "surname": "Kepler",
+    "forename": "Johannes",
+    "mail": "johannes.kepler@ellipse.com",
+    "id": "joke1234"
+  },
+  {
+    "surname": "Lovelace",
+    "forename": "Ada",
+    "mail": "ada.lovelace@info.com",
+    "id": "adlo1234"
+  },
+  {
+    "surname": "Brown",
+    "forename": "Emmett",
+    "mail": "emmett.brown@future.com",
+    "id": "embr1234"
+  },
+  {
+    "surname": "Einstein",
+    "forename": "Albert",
+    "mail": "albert.einstein@boom.com",
+    "id": "alei1234"
+  }
+]

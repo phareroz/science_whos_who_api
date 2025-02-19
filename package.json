@@ -1,0 +1,12 @@
+{
+  "name": "science_whos_who_api",
+  "version": "1.0.0",
+  "author": "phareroz",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "latest",
+    "@fastify/static": "latest",
+    "@fastify/swagger": "latest",
+    "@fastify/swagger-ui": "latest"
+  }
+}
