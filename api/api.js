@@ -18,6 +18,7 @@ function registerfastifyroutes(fastify)
   fastify.register(require('../routes/ping'));
   fastify.register(require('../routes/health'));
   fastify.register(require('../routes/users'));
+  fastify.register(require('../routes/favico'));
 }
 
 async function start(fastify)
