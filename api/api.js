@@ -18,7 +18,6 @@ function registerfastifyroutes(fastify)
   fastify.register(require('../routes/ping'));
   fastify.register(require('../routes/health'));
   fastify.register(require('../routes/users'));
-  fastify.register(require('../routes/favico'));
 }
 
 async function start(fastify)
@@ -64,6 +63,12 @@ async function start(fastify)
         { filename: 'theme.css', content: css }
       ],
     }
+  });
+  const path = require('node:path');
+  fastify.register(require('@fastify/static'),
+  {
+    root: path.join(__dirname, 'public'),
+    prefix: '/'
   });
   registerfastifyroutes(fastify);
 }
