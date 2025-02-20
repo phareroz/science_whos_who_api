@@ -22,6 +22,11 @@ function registerfastifyroutes(fastify)
 
 async function start(fastify)
 {
+  fastify.addHook('onRequest', (request, reply, done) =>
+  {
+    reply.header('access-control-allow-origin','*');
+    done();
+  });
   await fastify.register(require('@fastify/swagger'),
   {
     openapi:
